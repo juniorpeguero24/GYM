@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rutina de Ejercicios</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rutina de Ejercicios</h1>
+
+      <!-- Lunes: Pecho y Bíceps -->
+      <div class="day" id="monday">
+        <h2>Lunes: Pecho y Bíceps</h2>
+        <button onclick="toggleExercises('monday-alternative1')">
+          Alternativa 1
+        </button>
+        <ul id="monday-alternative1" class="exercises">
+          <li>Press de banca</li>
+          <li>Press inclinado con mancuernas</li>
+          <li>Aperturas con mancuernas</li>
+          <li>Fondos en paralelas</li>
+          <li>Curl de bíceps con barra</li>
+          <li>Curl martillo con mancuernas</li>
+        </ul>
+        <button onclick="toggleExercises('monday-alternative2')">
+          Alternativa 2
+        </button>
+        <ul id="monday-alternative2" class="exercises">
+          <li>Press de banca con mancuernas</li>
+          <li>Press declinado con barra</li>
+          <li>Press de pecho en máquina</li>
+          <li>Flexiones de pecho (push-ups)</li>
+          <li>Curl de bíceps en predicador</li>
+          <li>Curl de bíceps en polea baja</li>
+        </ul>
+      </div>
+
+      <!-- Martes: Espalda y Tríceps -->
+      <div class="day" id="tuesday">
+        <h2>Martes: Espalda y Tríceps</h2>
+        <button onclick="toggleExercises('tuesday-alternative1')">
+          Alternativa 1
+        </button>
+        <ul id="tuesday-alternative1" class="exercises">
+          <li>Dominadas</li>
+          <li>Remo con barra</li>
+          <li>Jalones al pecho en polea alta</li>
+          <li>Remo sentado en máquina</li>
+          <li>Extensiones de tríceps en polea</li>
+          <li>Patadas de tríceps con mancuerna</li>
+        </ul>
+        <button onclick="toggleExercises('tuesday-alternative2')">
+          Alternativa 2
+        </button>
+        <ul id="tuesday-alternative2" class="exercises">
+          <li>Jalón con agarre amplio</li>
+          <li>Remo con mancuernas</li>
+          <li>Pull-over con mancuerna</li>
+          <li>Peso muerto rumano</li>
+          <li>Extensiones de tríceps sobre la cabeza con mancuerna</li>
+          <li>Fondos en banco</li>
+        </ul>
+      </div>
+
+      <!-- Miércoles: Piernas -->
+      <div class="day" id="wednesday">
+        <h2>Miércoles: Piernas</h2>
+        <button onclick="toggleExercises('wednesday-alternative1')">
+          Alternativa 1
+        </button>
+        <ul id="wednesday-alternative1" class="exercises">
+          <li>Sentadillas</li>
+          <li>Prensa de piernas</li>
+          <li>Extensiones de pierna en máquina</li>
+          <li>Curl de pierna en máquina</li>
+          <li>Elevación de talones (pantorrillas)</li>
+        </ul>
+        <button onclick="toggleExercises('wednesday-alternative2')">
+          Alternativa 2
+        </button>
+        <ul id="wednesday-alternative2" class="exercises">
+          <li>Sentadilla búlgara</li>
+          <li>Zancadas con mancuernas</li>
+          <li>Peso muerto con piernas rígidas</li>
+          <li>Elevación de talones en máquina</li>
+          <li>Hip thrust</li>
+        </ul>
+      </div>
+
+      <!-- Jueves: Hombros y Abdominales -->
+      <div class="day" id="thursday">
+        <h2>Jueves: Hombros y Abdominales</h2>
+        <button onclick="toggleExercises('thursday-alternative1')">
+          Alternativa 1
+        </button>
+        <ul id="thursday-alternative1" class="exercises">
+          <li>Press militar con barra</li>
+          <li>Elevaciones laterales con mancuernas</li>
+          <li>Pájaros (elevaciones posteriores)</li>
+          <li>Encogimientos de hombros con mancuernas</li>
+          <li>Crunch en máquina</li>
+          <li>Elevación de piernas colgado</li>
+        </ul>
+        <button onclick="toggleExercises('thursday-alternative2')">
+          Alternativa 2
+        </button>
+        <ul id="thursday-alternative2" class="exercises">
+          <li>Press Arnold con mancuernas</li>
+          <li>Elevaciones frontales con mancuernas</li>
+          <li>Remo al mentón con barra</li>
+          <li>Encogimientos de hombros con barra</li>
+          <li>Ab wheel rollout</li>
+          <li>Plancha</li>
+        </ul>
+      </div>
+
+      <!-- Viernes: Full Body (Cuerpo completo) -->
+      <div class="day" id="friday">
+        <h2>Viernes: Full Body (Cuerpo completo)</h2>
+        <button onclick="toggleExercises('friday-alternative1')">
+          Alternativa 1
+        </button>
+        <ul id="friday-alternative1" class="exercises">
+          <li>Peso muerto</li>
+          <li>Press de banca</li>
+          <li>Remo con barra</li>
+          <li>Sentadillas</li>
+          <li>Curl de bíceps con mancuernas</li>
+          <li>Extensiones de tríceps en polea</li>
+        </ul>
+        <button onclick="toggleExercises('friday-alternative2')">
+          Alternativa 2
+        </button>
+        <ul id="friday-alternative2" class="exercises">
+          <li>Clean and press</li>
+          <li>Snatch</li>
+          <li>Thrusters</li>
+          <li>Burpees</li>
+          <li>Farmer's walk</li>
+          <li>Swing con kettlebell</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
